@@ -10,7 +10,7 @@ Add these two lines to your HTML:
 <!-- Include marked.js for markdown support -->
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <!-- Include the chatbot widget -->
-<script src="https://your-vercel-domain.vercel.app/chatbot.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/btackney/chatbottest@latest/dist/chatbot.min.js"></script>
 ```
 
 Then initialize the chatbot with your desired configuration:
@@ -41,7 +41,7 @@ initSalusChat({
   <head>
     <title>My Website</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://your-vercel-domain.vercel.app/chatbot.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/btackney/chatbottest@latest/dist/chatbot.min.js"></script>
   </head>
   <body>
     <h1>Welcome to my website</h1>
@@ -66,6 +66,7 @@ initSalusChat({
 - Session management
 - Typing indicators
 - Clean, modern design
+- Global CDN delivery via jsDelivr
 
 ## Support
 
